@@ -56,3 +56,17 @@ JavaScript
 # 📌 Acknowledgments
 
 Developed as part of my internship at Tecktoniq.
+
+
+# Notes
+
+This repository showcases front-end work only from my internship.
+
+No backend integration yet.
+
+Screenshots have been added to demonstrate the interface.
+
+
+# Author
+
+Tanvi Rajappa
