@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register - Mobile Recharge</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body class="login-body">
+  <div class="login-container">
+    <h2>Create Account</h2>
+
+    <input type="text" id="fullName" placeholder="Full Name" />
+    <input type="email" id="email" placeholder="Email" />
+    <input type="text" id="registerMobile" placeholder="Mobile Number" />
+    <input type="password" id="registerPassword" placeholder="Create Password" />
+    <input type="password" id="confirmPassword" placeholder="Confirm Password" />
+
+    <!-- ✅ Fixed function call -->
+    <button class="small-btn" onclick="handleRegister(event)">Sign Up</button>
+
+      <div class="login-actions">
+    <p>Already have an account?</p>
+    <button class="small-btn" onclick="window.location.href='index.html'">Log In</button>
+  </div>
+</div> <!-- 👈 make sure this closes the login-container -->
+
+<!-- ✅ Toast Message -->
+<div id="successToast" class="toast">Registration successful! Redirecting...</div>
+
+</body>
+</html>
+

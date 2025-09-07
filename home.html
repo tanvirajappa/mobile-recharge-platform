@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mobile Recharge</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="floating-bubbles">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+  </div>
+
+  <div class="container">
+    <h1>Mobile Recharge</h1>
+
+    <div class="form-grid">
+      <input type="text" id="phone" placeholder="Phone Number" maxlength="10" />
+
+      <select id="operator">
+        <option value="">Select Operator</option>
+        <option value="Jio">Jio</option>
+        <option value="Airtel">Airtel</option>
+        <option value="Vi">Vi</option>
+        <option value="BSNL">BSNL</option>
+      </select>
+
+      <select id="plan">
+        <option value="">Select Plan</option>
+        <option value="₹199 - 28 Days">₹199 - 28 Days</option>
+        <option value="₹399 - 56 Days">₹399 - 56 Days</option>
+        <option value="₹599 - 84 Days">₹599 - 84 Days</option>
+      </select>
+
+      <button class="recharge-btn" onclick="recharge()">Recharge</button>
+    </div>
+
+    <h2>Recharge History</h2>
+
+    <div class="history-scroll">
+      <table id="historyTable">
+        <thead>
+          <tr>
+            <th>Phone</th>
+            <th>Operator</th>
+            <th>Plan</th>
+            <th>Status</th>
+            <th>Date/Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- History rows will be added here -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Sound file -->
+  <audio id="clickSound" src="click.mp3" preload="auto"></audio>
+</body>
+</html>
