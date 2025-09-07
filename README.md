@@ -28,7 +28,7 @@ A responsive frontend for a mobile recharge platform, built using HTML, CSS, and
 
 1. Clone the repo:
 
-git clone https://github.com/your-username/mobile-recharge-frontend.git
+   git clone https://github.com/your-username/mobile-recharge-frontend.git
 
 
 2. Open index.html in your browser.
