@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOS - FreshStart</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function showMessage() {
+      alert("You've got this! Take a deep breath and remember why you started.");
+      alert("You are stronger than your addiction.");
+      alert("Every cigarette you don't smoke is a victoy over your addiction!");
+    }
+// ---- SOS GAME SCRIPT ----
+  let calmPoints = 0;
+
+  function calmClick() {
+    calmPoints++;
+    document.getElementById("scoreText").innerText =
+      "Calm points: " + calmPoints;
+
+    if (calmPoints === 10) {
+      alert("Amazing 🌟 You rode out the urge!");
+    }
+  }
+</script>
+  </script>
+</head>
+<body>
+  <div class="gradient-bg"></div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="login.html">Login Page</a></li>
+      <li><a href="progress.html">Progress Tracker</a></li>
+      <li><a href="tips.html">Craving Tips</a></li>
+      <li><a href="sos.html">SOS</a></li>
+      <li><a href="journal.html">Journal</a></li>
+    </ul>
+  </nav>
+
+  <section class="content">
+    <h2>SOS Support</h2>
+    <p>Need urgent motivation?</p>
+    <button onclick="showMessage()" class="sos-button">Click for SOS Motivation</button>
+
+<div class="sos-game">
+  <p class="game-text">Tap the circle when you feel the urge... 🌿</p>
+  <div id="calmCircle" onclick="calmClick()"></div>
+  <p id="scoreText">Calm points: 0</p>
+</div>
+
+  </div>
+</section>
+</body>
+</html>
