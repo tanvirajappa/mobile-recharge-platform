@@ -2,6 +2,11 @@
 
 A responsive frontend for a mobile recharge platform, built using HTML, CSS, and JavaScript. This project was developed during my internship at Tecktoniq, focusing on modern UI design and interactive recharge functionality.
 
+## Live Demo
+
+**Website:** https://tanvirajappa.github.io/mobile-recharge-platform/
+
+
 # Features
 
 📱 Responsive design for desktop & mobile
