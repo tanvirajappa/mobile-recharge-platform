@@ -51,9 +51,9 @@ Submit to simulate recharge flow
 
 # Tech Stack
 
-HTML5
+HTML
 
-CSS3
+CSS
 
 JavaScript
 
